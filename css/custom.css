@@ -1,0 +1,200 @@
+.main-header {  
+  top: 34px;
+}
+
+.parent > div.project01{
+  width: 48%;
+  position: absolute;
+  left: 0; top: 0;
+  margin-left: 90px;
+}
+.parent > div.txt{
+  margin-top: 30px;
+  
+   text-align: left;
+   width: 25%;
+   position: absolute;
+   right: 13%; top: 0;
+ }
+ .parent > div.txt a{
+  margin-top: 30px;
+  
+   text-align: left;
+  
+   position: absolute;
+   left: 0; bottom: -60px;
+   display: inline-block;
+   width: 140px; height: 40px;
+   line-height: 40px; text-align: center;
+   font-size: 15px;
+   color: tomato;
+   border: 1px solid tomato;
+   
+ }
+ .parent > div.txt a.right{
+   left: 150px;
+ }
+
+.parent01 > div.project02{
+  margin-left: -360px;
+}
+ .parent01 > div.txt01{
+  margin-top: 50px;
+  
+  text-align: left;
+  width: 25%;
+  position: absolute;
+  right: 8%; top: 0;
+
+ }
+ .parent01 > div.txt01 a{
+  display: block;
+  width: 120px; height: 45px;
+  line-height: 45px; text-align: center;
+  font-size: 18px;
+  color: tomato;
+  border: 1px solid tomato;
+  margin-top: 30px;
+
+ }
+.portfolio-overlay a.link{
+  display: block;
+  opacity: 1;
+}
+
+ .swiper {
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .swiper-slide {
+   text-align: center;
+   font-size: 18px;
+   background: #fff;
+ 
+   /* Center slide text vertically */
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   -webkit-align-items: center;
+   align-items: center;
+ 
+ }
+ 
+ .swiper-slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ } 
+ .mySwiper{
+   width: 100%;
+   padding: 50px 0 50px;
+ }
+ .swiper-slide .parent{
+   position: relative;
+ }
+ .swiper-pagination-fraction {
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+  content:none;
+}
+
+
+
+ .fa-hand-point-right:before {
+  content: "\f0a4";
+  font-size: 28px;
+  color: tomato;
+}
+.fa-hand-point-left:before {
+  content: "\f0a5";
+  font-size: 28px;
+  color: tomato;
+}
+.swiper-button-next, .swiper-button-prev {
+top: 10%;
+}
+h4{
+  font-size: 25px !important;
+  color: tomato !important; 
+  margin-bottom: 20px;
+}
+.parent p, .parent01 p{
+  margin: 5px 0;
+  font-weight: bold;
+}
+.parent p span, .parent01 p span{
+  font-weight: normal;
+  display: block;
+}
+.logo-wrapper a {
+  
+  padding-left: 130px;
+  line-height: 100px;
+  text-transform: none;
+  color: #ec523f;
+  font-size: 28px;
+  font-weight: 700;
+}
+.txtwrap{
+  margin-left: 180px;
+}
+
+.txtwrap p span{
+  font-weight: bold;
+  font-size: 18px;
+  color: #ec523f;
+  margin-right: 10px;
+}
+.skills-heading h3.skills-title {
+  font-style: normal;
+  font-size: 23px;
+  text-transform: uppercase;
+  color: #5e5e5e;
+}
+.portfolio-item .portfolio-thumb{
+  height: 370px;
+}
+.portfolio-item .portfolio-thumb.pic06 {
+  padding: 20px 0;
+ }
+ .portfolio-item .portfolio-thumb.pic02 {
+  
+  }
+  .portfolio-item .portfolio-thumb .portfolio-overlay a.click {
+     margin-top: 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    background-color: rgba(255,255,255,0); 
+    display: block;
+    text-align: center;
+    
+}
+#lightbox{ 
+  overflow: scroll;
+}
+#lightbox img.over{
+  width: 900px;
+  height: 1200px;
+}
+.portfolio-overlay h3{
+  margin: 80px 0 20px;
+  font-size: 40px;
+}
+.portfolio-overlay p{
+  font-size: 20px;
+}
