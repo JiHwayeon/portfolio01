@@ -34,6 +34,9 @@
  .parent > div.txt a.right{
    left: 150px;
  }
+ .parent > div.txt a.con{
+  left: 0px; bottom: -115px;
+}
 
 .parent01 > div.project02{
   margin-left: -360px;
@@ -48,15 +51,23 @@
 
  }
  .parent01 > div.txt01 a{
-  display: block;
-  width: 120px; height: 45px;
-  line-height: 45px; text-align: center;
-  font-size: 18px;
+  display:inline-block;
+  width: 140px; height: 40px;
+  line-height: 40px; text-align: center;
+  font-size: 15px;
   color: tomato;
   border: 1px solid tomato;
   margin-top: 30px;
-
+  position: absolute;
+  left: 0; bottom: -60px;
  }
+  .parent01 > div.txt01 a.right01{
+  left: 150px; 
+}
+.parent01 > div.txt01 a.con01{
+ left: 0px; bottom: -115px;
+} 
+
 .portfolio-overlay a.link{
   display: block;
   opacity: 1;
@@ -169,9 +180,7 @@ h4{
 .portfolio-item .portfolio-thumb.pic06 {
   padding: 20px 0;
  }
- .portfolio-item .portfolio-thumb.pic02 {
-  
-  }
+ 
   .portfolio-item .portfolio-thumb .portfolio-overlay a.click {
      margin-top: 15px;
     width: 36px;
@@ -184,17 +193,51 @@ h4{
     text-align: center;
     
 }
-#lightbox{ 
+/* #lightbox{ 
   overflow: scroll;
 }
 #lightbox img.over{
   width: 900px;
   height: 1200px;
-}
+}*/
 .portfolio-overlay h3{
-  margin: 80px 0 20px;
+  margin: 38px 0 18px;
   font-size: 40px;
 }
 .portfolio-overlay p{
   font-size: 20px;
+} 
+
+.portfolio-item .portfolio-thumb .portfolio-overlay a.expand.link02 {
+  margin-top: 15px;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  top:50%; left: 50%;
+  background-color: white;
+  display:block;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.portfolio-item .portfolio-thumb .portfolio-overlay a.expand.link01 {
+  margin-top: 15px;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  top:62%; left: 50%;
+  background-color: white;
+  display:block;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.portfolio-item .portfolio-thumb .portfolio-overlay a.expand.link03 {
+  margin-top: 15px;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  top:74%; left: 50%;
+  background-color: white;
+  display:block;
+  text-align: center;
+  transform: translateX(-50%);
 }
