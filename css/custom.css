@@ -213,7 +213,7 @@ h4{
   width: 160px;
   height: 40px;
   position: absolute;
-  top:50%; left: 50%;
+  top:40%; left: 50%;
   background-color: white;
   display:block;
   text-align: center;
@@ -224,7 +224,7 @@ h4{
   width: 160px;
   height: 40px;
   position: absolute;
-  top:62%; left: 50%;
+  top:54%; left: 50%;
   background-color: white;
   display:block;
   text-align: center;
@@ -235,7 +235,7 @@ h4{
   width: 160px;
   height: 40px;
   position: absolute;
-  top:74%; left: 50%;
+  top:68%; left: 50%;
   background-color: white;
   display:block;
   text-align: center;
