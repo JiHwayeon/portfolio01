@@ -239,3 +239,20 @@ h4{
   text-align: center;
   transform: translateX(-50%);
 }
+.heading-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid #444444;
+  display: inline-block;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ec523f;
+  border-color: #ec523f;
+  margin-right: 50px;
+  margin-top: 60px;
+}
+.btn-primary:last-child{
+  margin-right: 0;
+}
