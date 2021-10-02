@@ -52,6 +52,7 @@ to{top:50px; opacity: 0;}
   left: 0; top: 0;
   margin-left: 90px;
 }
+
 .parent > div.txt{
   margin-top: 30px;
   
@@ -78,6 +79,9 @@ to{top:50px; opacity: 0;}
  .parent > div.txt a.right{
    left: 150px;
  }
+ .parent > div.txt a.right03{
+  left: 150px; font-size: 10px;
+}
  .parent > div.txt a.con{
   left: 0px; bottom: -115px;
 }
