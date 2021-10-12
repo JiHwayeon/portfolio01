@@ -24,6 +24,7 @@ http://www.templatemo.com/tm-406-flex
         <link rel="icon" type="image/x-icon" href="images/logo_AfL_icon.ico" />
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
         <script src="js/custom.js"></script>
+       
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -122,8 +123,16 @@ http://www.templatemo.com/tm-406-flex
                           <p >프로젝트 참여도:<span>100%</span></p>
                           <p>프로젝트 TOOL: <span>Photoshop, Illustrator, HTML5, CSS3, jQueary, javascript</span></p>
                           <p>프로젝트기간: <span>2021.09.13 ~ 2021.09.23</span></p>
+                          <p>프로젝트 소개:
+                            <!-- <button type='button' class="popup">모달창아 나와랏</button> -->
+                          </p>
+                           <div class="modal-btn-box">
+                            <button type="button" id="modal-open">View more</button>  
+                            </div>
+                            
                           <a href="https://jihwayeon.github.io/project01/" target="_blank">Go to site</a>
                         </div>
+                       
                       </div>
                       <div class="swiper-slide parent">
                         <div class="project01">
@@ -273,9 +282,6 @@ http://www.templatemo.com/tm-406-flex
             </div> <!-- /.container -->
         </div> <!-- /#portfolio -->
 
-
-
-
         <div class="content-section" id="our-team">
             <div class="container">
         
@@ -376,13 +382,46 @@ http://www.templatemo.com/tm-406-flex
                 </div> <!-- /.row -->
             </div> <!-- /.container -->
         </div> <!-- /#footer -->
-        
+        <!-- <div class="layer_bg"></div>
+        <div class="layer">
+          <h2>타이틀</h2>
+          <a href="#" class="close">닫기</a>
+        </div> -->
+        <div class="popup-wrap" id="popup">
+            <div class="popup">
+              <div class="popup-head">
+                  <span class="head-title">
+                   프로젝트 소개</span>
+              </div>
+              <div class="popup-body">
+                <div class="body-content">
+                  <div class="body-titlebox">
+                    <h1>Confirm Modal</h1>
+                  </div>
+                  <div class="body-contentbox">
+                   <p>웹 디자인 실무 교육과정을 통해 
+                              디자인과 코딩을 처음 접하고 처음 만들었던 사이트입니다.
+                              기존에 만들었던 작업물에 부족함을 느껴 한번 더 디자인과
+                              코드를 수정하면서 부족한 부분을 보완하고 새로 공부한 내용
+                              을 적용하여 작업했습니다.
+                          </p> 
+                  </div>
+                  
+                  
+                </div>
+              </div>
+              <div class="popup-foot">
+                <span class="pop-btn confirm" id="confirm">확인</span>
+                <span class="pop-btn close" id="close">창 닫기</span>
+              </div>
+            </div>
+        </div>
         <script src="js/vendor/jquery-1.11.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
         <script src="js/bootstrap.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+        <script src=""></script>
         <!-- Google Map -->
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="js/vendor/jquery.gmap3.min.js"></script>
@@ -425,5 +464,33 @@ http://www.templatemo.com/tm-406-flex
             });
         </script>
         <!-- templatemo 406 flex -->
+        <!-- <script>
+            $(".popup").click(function(){
+              $(".layer").css("display", "block")
+             $(".layer_bg").css("display", "block")
+            });
+            $(".layer .close").click(function(){
+             $(".layer").css("display","none")
+             $(".layer_bg").css("display","none")
+            });
+            
+            
+            </script> -->
+            <script>
+                $(function(){
+               $("#confirm").click(function(){
+                   modalClose();
+                   //컨펌 이벤트 처리
+               });
+               $("#modal-open").click(function(){        $("#popup").css('display','flex').hide().fadeIn();
+               });
+               $("#close").click(function(){
+                   modalClose();
+               });
+               function modalClose(){
+                 $("#popup").fadeOut();
+               }
+             });
+               </script>
     </body>
 </html>
