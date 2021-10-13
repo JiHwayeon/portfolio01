@@ -51,6 +51,7 @@ to{top:50px; opacity: 0;}
   position: absolute;
   left: 0; top: 0;
   margin-left: 90px;
+  margin-top: 30px;
 }
 
 .parent > div.txt{
@@ -60,6 +61,14 @@ to{top:50px; opacity: 0;}
    width: 25%;
    position: absolute;
    right: 13%; top: 0;
+ }
+ .parent > div.txt p.int{
+   display: inline-block;
+   width: 150px;
+ }
+ .parent01 > div.txt01 p.int{
+  display: inline-block;
+  width: 150px;
  }
  .parent > div.txt a{
   margin-top: 30px;
@@ -88,6 +97,7 @@ to{top:50px; opacity: 0;}
 
 .parent01 > div.project02{
   margin-left: -360px;
+  margin-top: 40px;
 }
  .parent01 > div.txt01{
   margin-top: 50px;
@@ -169,7 +179,7 @@ to{top:50px; opacity: 0;}
  } 
  .mySwiper{
    width: 100%;
-   padding: 50px 0 150px;
+   padding: 50px 0 50px;
  }
  .swiper-slide .parent{
    position: relative;
@@ -336,7 +346,8 @@ h1 {
  
  
   .modal-btn-box{
-    width:100%;
+    width:40%;
+    display: inline-block;
   }
   .modal-btn-box button{
     display:inline-block;
@@ -347,10 +358,11 @@ h1 {
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: #ec523f;
+    color: #1c0fd3;
   }
   .modal-btn-box02{
-    width:100%;
+    width:40%;
+    display: inline-block;
   }
   .modal-btn-box02 button{
     display:inline-block;
@@ -364,7 +376,8 @@ h1 {
     color: #ec523f;
   }
   .modal-btn-box03{
-    width:100%;
+    width:40%;
+    display: inline-block;
   }
   .modal-btn-box03 button{
     display:inline-block;
@@ -378,7 +391,8 @@ h1 {
     color: #ec523f;
   }
   .modal-btn-box04{
-    width:100%;
+    width:40%;
+    display: inline-block;
   }
   .modal-btn-box04 button{
     display:inline-block;

@@ -104,7 +104,7 @@ $(function(){
   });
   $("#modal-open").click(function(){   $("#popup").css('display','flex').hide().fadeIn();
   });
-  $("#close").click(function(){
+  $("#close05").click(function(){
       modalClose();
   });
   function modalClose(){
