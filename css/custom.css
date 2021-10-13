@@ -1,3 +1,4 @@
+
 .main-header {  
   top: 34px;
 }
@@ -64,11 +65,11 @@ to{top:50px; opacity: 0;}
  }
  .parent > div.txt p.int{
    display: inline-block;
-   width: 150px;
+   width: 120px;
  }
  .parent01 > div.txt01 p.int{
   display: inline-block;
-  width: 150px;
+  width: 120px;
  }
  .parent > div.txt a{
   margin-top: 30px;
@@ -354,26 +355,30 @@ h1 {
     width:110px;
     height:40px;
     background-color:#ffffff;
-    border:1px solid #e1e1e1;
+    border:0;
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: #1c0fd3;
+    color: rgb(155, 67, 238);
+    font-weight: 800;
   }
   .modal-btn-box02{
     width:40%;
     display: inline-block;
   }
+
   .modal-btn-box02 button{
     display:inline-block;
     width:110px;
     height:40px;
     background-color:#ffffff;
-    border:1px solid #e1e1e1;
+    border: 0 ;
+ 
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: #ec523f;
+    color: rgb(155, 67, 238);
+    font-weight: 800;
   }
   .modal-btn-box03{
     width:40%;
@@ -384,11 +389,12 @@ h1 {
     width:110px;
     height:40px;
     background-color:#ffffff;
-    border:1px solid #e1e1e1;
+   border: 0;
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: #ec523f;
+    color: rgb(155, 67, 238);
+    font-weight: 800;
   }
   .modal-btn-box04{
     width:40%;
@@ -399,11 +405,12 @@ h1 {
     width:110px;
     height:40px;
     background-color:#ffffff;
-    border:1px solid #e1e1e1;
+    border: 0;
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: #ec523f;
+    color: rgb(155, 67, 238);
+    font-weight: 800;
   }
   .popup-wrap{
     background-color:rgba(0,0,0,.3);
