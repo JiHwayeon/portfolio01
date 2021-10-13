@@ -409,8 +409,8 @@ h1 {
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: rgb(155, 67, 238);
-    font-weight: 800;
+    color: #3c8dad;
+    font-weight: 700;
   }
   .popup-wrap{
     background-color:rgba(0,0,0,.3);
@@ -431,7 +431,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#264db5;
+    background-color:#97acf4;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-wrap02{
@@ -453,7 +453,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#264db5;
+    background-color:#97acf4;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-wrap03{
@@ -475,7 +475,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#264db5;
+    background-color:#97acf4;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-wrap04{
@@ -497,7 +497,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#264db5;
+    background-color:#97acf4;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-head{
