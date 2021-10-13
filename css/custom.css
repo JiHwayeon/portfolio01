@@ -82,8 +82,8 @@ to{top:50px; opacity: 0;}
    width: 140px; height: 40px;
    line-height: 40px; text-align: center;
    font-size: 15px;
-   color: tomato;
-   border: 1px solid tomato;
+   color: #FF3D68;
+   border: 1px solid #FF3D68
    
  }
  .parent > div.txt a.right{
@@ -128,8 +128,8 @@ to{top:50px; opacity: 0;}
   width: 140px; height: 40px;
   line-height: 40px; text-align: center;
   font-size: 15px;
-  color: tomato;
-  border: 1px solid tomato;
+  color: #FF3D68;
+  border: 1px solid #FF3D68;
   margin-top: 30px;
   position: absolute;
   left: 0; bottom: -60px;
@@ -359,7 +359,7 @@ h1 {
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: rgb(155, 67, 238);
+    color: #FF677D;
     font-weight: 800;
   }
   .modal-btn-box02{
@@ -377,7 +377,7 @@ h1 {
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: rgb(155, 67, 238);
+    color: #FF677D;
     font-weight: 800;
   }
   .modal-btn-box03{
@@ -393,7 +393,7 @@ h1 {
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: rgb(155, 67, 238);
+    color: #FF677D;
     font-weight: 800;
   }
   .modal-btn-box04{
@@ -409,7 +409,7 @@ h1 {
     cursor:pointer;
    padding: 5px;
     font-size: 16px;
-    color: #3c8dad;
+    color: #FF677D;
     font-weight: 700;
   }
   .popup-wrap{
@@ -431,7 +431,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#97acf4;
+    background-color:#FFAE8F;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-wrap02{
@@ -453,7 +453,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#97acf4;
+    background-color:#FFAE8F;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-wrap03{
@@ -475,7 +475,7 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#97acf4;
+    background-color:#FFAE8F;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-wrap04{
@@ -497,18 +497,18 @@ h1 {
     background-color:#ffffff;
     border-radius:10px;
     overflow:hidden;
-    background-color:#97acf4;
+    background-color:#FFAE8F;
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
   }
   .popup-head{
     width:100%;
-    height:50px;
+    height:43px;
     display:flex;
     align-items:center;
     justify-content:center;
   }
   .head-title {
-      font-size: 25px;
+      font-size: 20px;
       color: #fff;
       font-weight: 400;
       letter-spacing: -3px;
@@ -520,7 +520,7 @@ h1 {
   }
   .body-content{
     width:100%;
-    padding:30px;
+    padding:20px;
   }
   /* .body-titlebox{
     text-align:center;
@@ -546,7 +546,7 @@ h1 {
   }
   .popup-foot{
     width:100%;
-    height:50px;
+    height:35px;
   }
   .pop-btn{
     display:inline-flex;
@@ -558,6 +558,4 @@ h1 {
     color:#ffffff;
     cursor:pointer;
   }
-  .pop-btn.confirm{
-    border-right:1px solid #3b5fbf;
-  }
+ 
