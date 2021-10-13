@@ -94,3 +94,64 @@ jQuery(document).ready(function($) {
 
 
 });
+
+
+
+$(function(){
+  $("#confirm").click(function(){
+      modalClose();
+      //컨펌 이벤트 처리
+  });
+  $("#modal-open").click(function(){   $("#popup").css('display','flex').hide().fadeIn();
+  });
+  $("#close").click(function(){
+      modalClose();
+  });
+  function modalClose(){
+    $("#popup").fadeOut();
+  } 
+                         
+});
+$(function(){
+  $("#confirm02").click(function(){
+      modalClose();
+      //컨펌 이벤트 처리
+  });
+  $("#modal-open02").click(function(){   $("#popup02").css('display','flex').hide().fadeIn();
+  });
+  $("#close02").click(function(){
+      modalClose();
+  });
+  function modalClose(){
+    $("#popup02").fadeOut();
+  }                        
+});
+$(function(){
+  $("#confirm03").click(function(){
+      modalClose();
+      //컨펌 이벤트 처리
+  });
+  $("#modal-open03").click(function(){   $("#popup03").css('display','flex').hide().fadeIn();
+  });
+  $("#close03").click(function(){
+      modalClose();
+  });
+  function modalClose(){
+    $("#popup03").fadeOut();
+  }                        
+});
+$(function(){
+  $("#confirm04").click(function(){
+      modalClose();
+      //컨펌 이벤트 처리
+  });
+  $("#modal-open04").click(function(){   $("#popup04").css('display','flex').hide().fadeIn();
+  });
+  $("#close04").click(function(){
+      modalClose();
+  });
+  function modalClose(){
+    $("#popup04").fadeOut();
+  }                        
+});
+
